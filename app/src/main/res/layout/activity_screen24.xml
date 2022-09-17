@@ -12,7 +12,7 @@
     >
 
     <RelativeLayout
-android:layout_weight="1"
+        android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageButton
@@ -37,31 +37,34 @@ android:layout_weight="1"
             android:textSize="30dp"
             android:textStyle="bold" />
 
-        <ImageButton
+        <TextView
 
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginRight="20dp"
-            android:src="@drawable/pen22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="save"
+            android:textSize="24sp"
+            android:textColor="@color/yellow"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
-            android:scaleType="centerInside"
-            android:background="@color/black"
-            
+            android:layout_marginRight="20dp"
+
+
+
+
             />
-        
+
     </RelativeLayout>
-    
+
     <RelativeLayout
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-    <ImageView
-        android:id="@+id/abc"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_centerInParent="true"
-        android:src="@drawable/browncircle" />
+        <ImageView
+            android:id="@+id/abc"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/browncircle" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -79,34 +82,27 @@ android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="10dp"
-            android:text="Email"
-            android:textColor="@color/yellow"
-            android:textSize="30sp"
+        <com.google.android.material.textfield.TextInputLayout
 
-            />
+            android:layout_width="350dp"
+            android:id="@+id/layoutt2"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:hint="Email"
+            android:textColorHint="@color/darkyellow"
+            android:layout_gravity="center">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edittmailscreen3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:inputType="textEmailAddress"
+                />
 
+        </com.google.android.material.textfield.TextInputLayout>
 
-    </RelativeLayout>
-    <RelativeLayout
-        android:layout_weight="1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="10dp"
-            android:text="Playlist: 4"
-            android:textColor="@color/yellow"
-            android:textSize="30sp"
-
-            />
 
 
     </RelativeLayout>
@@ -114,21 +110,32 @@ android:layout_weight="1"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Songs: 4"
-            android:textColor="@color/yellow"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="10dp"
-            android:textSize="30sp"
+        <com.google.android.material.textfield.TextInputLayout
 
-            />
+            android:layout_width="350dp"
+            android:id="@+id/layoutt3"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="Password"
+            android:layout_centerHorizontal="true"
+            android:textColorHint="@color/darkyellow"
+            android:layout_gravity="center"
+            app:endIconMode="password_toggle"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edittpassscreen3"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:background="@color/white"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
 
 
     </RelativeLayout>
-    <RelativeLayout
-       android:layout_marginTop="20dp"
+        <RelativeLayout
+        android:layout_marginTop="20dp"
         android:layout_weight="1"
 
         android:layout_width="match_parent"

@@ -17,12 +17,11 @@
 
         <ImageView
             android:id="@+id/abc"
-            android:layout_centerHorizontal="true"
-            android:background="@color/brown"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/circle"
-            />
+            android:layout_centerHorizontal="true"
+            android:background="@color/brown"
+            android:src="@drawable/circle" />
 
         <TextView
             android:layout_width="match_parent"

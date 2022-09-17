@@ -74,6 +74,7 @@ android:layout_centerHorizontal="true"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:background="@color/white"
+        android:textColor="@color/black"
         />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -93,6 +94,7 @@ android:layout_centerHorizontal="true"
             android:layout_height="100dp"
             android:inputType="textPersonName"
             android:background="@color/white"
+            android:textColor="@color/black"
             />
     </com.google.android.material.textfield.TextInputLayout>
 

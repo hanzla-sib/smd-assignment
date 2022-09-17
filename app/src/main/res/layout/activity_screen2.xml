@@ -71,6 +71,7 @@ android:weightSum="8"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:background="@color/white"
+        android:textColor="@color/black"
         />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -90,6 +91,7 @@ android:weightSum="8"
             android:layout_height="wrap_content"
             android:background="@color/white"
             android:inputType="textEmailAddress"
+            android:textColor="@color/black"
             />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -112,6 +114,7 @@ android:weightSum="8"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:background="@color/white"
+            android:textColor="@color/black"
             />
     </com.google.android.material.textfield.TextInputLayout>
 
