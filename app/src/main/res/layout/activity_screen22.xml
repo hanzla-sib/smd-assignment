@@ -4,71 +4,104 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".screen18"
+    tools:context=".screen19"
     android:orientation="vertical"
     android:background="@color/black"
-    android:weightSum="7"
-
-
-    >
-
-    <LinearLayout
+    android:weightSum="6">
+    <RelativeLayout
+        android:layout_weight="0.5"
         android:layout_width="match_parent"
-        android:layout_height="10dp"
-        android:orientation="horizontal"
-        android:layout_weight="1">
-
+        android:layout_height="wrap_content">
         <ImageButton
+            android:id="@+id/arrow"
             android:layout_width="wrap_content"
-            android:layout_height="80dp"
+            android:layout_height="wrap_content"
             android:src="@drawable/back18"
-            android:background="@color/black"
             android:layout_centerVertical="true"
+            android:background="@color/black"
 
-            android:scaleType="centerInside"
 
             />
 
-        <EditText
-            android:paddingLeft="20dp"
-            android:layout_marginRight="30dp"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginTop="12dp"
-            android:hint="Search"
-            android:textColorHint="@color/darkyellow"
-            android:textColor="@color/darkyellow"
-            android:background="@drawable/roundcornerswhite"
+        <TextView
+            android:id="@+id/upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/arrow"
+            android:text="Liked"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
 
-            />
-
-
-
-    </LinearLayout>
-
+    </RelativeLayout>
     <LinearLayout
-        android:layout_weight="1"
+        android:layout_weight="0.5"
         android:layout_width="match_parent"
-        android:layout_height="11dp"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <TextView
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 Options"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Left Selected"
+            android:textColor="@color/white"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Recent Searches"
-            android:textColor="@color/darkyellow"
+            android:background="@drawable/roundcorners"
 
-            android:textSize="25dp"
-            android:paddingLeft="20dp"
-            android:paddingTop="20dp"
-            />
+            >
+
+            <Button
+                android:layout_width="204dp"
+                android:layout_height="wrap_content"
+
+                android:text="Playlist"
+                android:backgroundTint="@color/darkyellow"/>
+
+            <Button
+                android:layout_width="204dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:backgroundTint="@color/brown"
+                android:text="Music" />
+
+        </RelativeLayout>
+
     </LinearLayout>
-
     <RelativeLayout
-        android:layout_weight="1.5"
+        android:layout_weight="1"
         android:paddingLeft="20dp"
         android:layout_width="match_parent"
-        android:layout_height="10dp">
+        android:layout_height="wrap_content">
 
         <ImageButton
             android:id="@+id/firstimg"
@@ -77,34 +110,47 @@
             android:layout_centerVertical="true"
             android:background="@color/black"
             android:scaleType="centerInside"
-            android:src="@drawable/despacito8" />
+            android:src="@drawable/playlist5" />
+
         <TextView
             android:id="@+id/alphatext"
-            android:paddingLeft="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Song Name"
-            android:textSize="20sp"
-            android:textColor="@color/white"
-            android:layout_toRightOf="@id/firstimg"
             android:layout_marginTop="20dp"
-            />
-        <TextView
+            android:layout_toRightOf="@id/firstimg"
             android:paddingLeft="20dp"
+            android:text="Playlist 1"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ar1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Artist"
-            android:textSize="24sp"
-            android:textColor="@color/darkyellow"
-            android:layout_toRightOf="@id/firstimg"
             android:layout_below="@id/alphatext"
             android:layout_marginTop="5dp"
-            />
+            android:layout_toRightOf="@id/firstimg"
+            android:paddingLeft="20dp"
+            android:text="Artist"
+            android:textColor="@color/darkyellow"
+            android:textSize="24sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/alphatext"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/ar1"
+            android:paddingLeft="40dp"
+            android:text="Track:8"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
 
         <ImageButton
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/cross18"
+            android:src="@drawable/dots16"
             android:background="@color/black"
             android:layout_toRightOf="@id/alphatext"
             android:layout_centerVertical="true"
@@ -114,111 +160,70 @@
 
     </RelativeLayout>
     <RelativeLayout
-
-        android:layout_weight="1.5"
+        android:layout_weight="1"
         android:paddingLeft="20dp"
         android:layout_width="match_parent"
-        android:layout_height="10dp">
+        android:layout_height="wrap_content">
 
         <ImageButton
-            android:id="@+id/firstimg2"
+            android:id="@+id/firstimg22"
             android:layout_width="110dp"
             android:layout_height="110dp"
-            android:src="@drawable/despacito8"
-            android:background="@color/black"
             android:layout_centerVertical="true"
+            android:background="@color/black"
             android:scaleType="centerInside"
-            />
+            android:src="@drawable/playlist5" />
 
         <TextView
-            android:id="@+id/alphatext2"
+            android:id="@+id/alphatext22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:layout_toRightOf="@id/firstimg2"
+            android:layout_toRightOf="@id/firstimg22"
             android:paddingLeft="20dp"
-            android:text="Playlist Name"
+            android:text="Playlist 2"
             android:textColor="@color/white"
             android:textSize="20sp" />
+
         <TextView
+            android:id="@+id/ar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/alphatext22"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/firstimg22"
             android:paddingLeft="20dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:text="Artist"
-            android:textSize="24sp"
             android:textColor="@color/darkyellow"
-            android:layout_toRightOf="@id/firstimg2"
-            android:layout_below="@id/alphatext2"
-            android:layout_marginTop="10dp"
-            />
-        <ImageButton
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/cross18"
-            android:background="@color/black"
-            android:layout_toRightOf="@id/alphatext2"
-            android:layout_centerVertical="true"
-            android:scaleType="centerInside"
-            android:layout_marginLeft="50dp"
-            />
-
-
-    </RelativeLayout>
-    <RelativeLayout
-        android:layout_weight="1.5"
-        android:paddingLeft="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="10dp">
-
-        <ImageButton
-            android:id="@+id/firstimg3"
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:src="@drawable/despacito8"
-            android:background="@color/black"
-            android:layout_centerVertical="true"
-            android:scaleType="centerInside"
-            />
+            android:textSize="24sp" />
 
         <TextView
-            android:id="@+id/alphatext3"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@id/alphatext22"
             android:layout_marginTop="20dp"
-            android:layout_toRightOf="@id/firstimg3"
-            android:paddingLeft="20dp"
-            android:text="Playlist Name"
+            android:layout_toRightOf="@id/ar2"
+            android:paddingLeft="40dp"
+            android:text="Track:3"
             android:textColor="@color/white"
-            android:textSize="20sp" />
-        <TextView
-            android:paddingLeft="20dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Artist"
-            android:textSize="24sp"
-            android:textColor="@color/darkyellow"
-            android:layout_toRightOf="@id/firstimg3"
-            android:layout_below="@id/alphatext3"
-            android:layout_marginTop="10dp"
-            />
+            android:textSize="14sp" />
 
         <ImageButton
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/cross18"
+            android:src="@drawable/dots16"
             android:background="@color/black"
-            android:layout_toRightOf="@id/alphatext3"
+            android:layout_toRightOf="@id/alphatext22"
             android:layout_centerVertical="true"
             android:scaleType="centerInside"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="70dp"
             />
-
-
 
     </RelativeLayout>
     <RelativeLayout
-        android:layout_weight="0.5"
-android:layout_marginTop="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:background="@color/gray">
@@ -226,15 +231,17 @@ android:layout_marginTop="200dp"
         <RelativeLayout
             android:id="@+id/one"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent">
+            android:layout_height="fill_parent"
+            android:background="@color/black">
 
             <ImageButton
+
                 android:id="@+id/fid"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
                 android:layout_alignParentTop="true"
-                android:background="@color/gray"
+                android:layout_centerVertical="true"
+                android:background="@color/black"
                 android:src="@drawable/heart5" />
 
             <TextView
@@ -285,8 +292,7 @@ android:layout_marginTop="200dp"
             android:layout_toRightOf="@id/two"
             android:id="@+id/three"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:background="@color/black">
+            android:layout_height="fill_parent">
 
             <ImageButton
                 android:id="@+id/thid"
@@ -294,7 +300,7 @@ android:layout_marginTop="200dp"
                 android:layout_height="72dp"
                 android:layout_alignParentTop="true"
                 android:layout_centerVertical="true"
-                android:background="@color/black"
+                android:background="@color/gray"
                 android:src="@drawable/search5" />
 
 
@@ -317,7 +323,7 @@ android:layout_marginTop="200dp"
             android:id="@+id/four"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
-            >
+            android:background="@color/gray">
 
             <ImageButton
                 android:id="@+id/foid"
