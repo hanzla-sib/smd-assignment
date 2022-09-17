@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screen7"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:weightSum="6.4"
+    >
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back18"
+            android:layout_centerVertical="true"
+            android:background="@color/black"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/arrow"
+            android:text="Add Playlist"
+            android:textColor="@color/white"
+
+
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/cloud9"
+            android:layout_centerHorizontal="true"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <com.google.android.material.textfield.TextInputLayout
+android:layout_centerHorizontal="true"
+        android:layout_width="350dp"
+        android:id="@+id/layoutt1screen9"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="PlayList Name"
+        android:textColorHint="@color/darkyellow"
+        android:layout_gravity="center">
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editt1screen9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:background="@color/white"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/layoutt1screen9"
+        android:layout_width="350dp"
+        android:id="@+id/layoutt2screen9"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:hint="Description"
+        android:textColorHint="@color/darkyellow"
+        android:layout_gravity="center">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit2screen9"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:inputType="textPersonName"
+            android:background="@color/white"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:backgroundTint="@color/darkyellow"
+            android:text="Add Playlist"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+            android:textStyle="bold" />
+
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="0.4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray">
+        <ImageButton
+
+            android:id="@+id/one"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/heart5"
+            android:background="@color/gray"
+            />
+
+        <ImageButton
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/one"
+            android:background="@color/black"
+            android:scaleType="centerInside"
+            android:src="@drawable/plus5" />
+        <ImageButton
+
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:layout_toRightOf="@id/two"
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search5"
+            android:background="@color/gray"
+            />
+        <ImageButton
+
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/three"
+            android:scaleType="centerInside"
+            android:id="@+id/four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/clock5"
+            android:background="@color/gray"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
