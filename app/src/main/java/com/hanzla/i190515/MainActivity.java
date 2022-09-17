@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         new Handler().postDelayed(() -> {
-            startActivity(new Intent(this, screen18.class));
+            startActivity(new Intent(this, screen2.class));
             finish();
         }, 3000);
 
