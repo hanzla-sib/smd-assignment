@@ -75,14 +75,14 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
             android:layout_toRightOf="@id/ib3"
             android:background="@drawable/roundcorners"
             android:hint="What an amazing song"
-            android:layout_marginRight="10dp"
-            android:textAlignment="center"
-            android:textSize="20sp"
             android:padding="15dp"
+            android:textAlignment="center"
             android:textColorHint="#fff"
+            android:textSize="20sp"
             android:textStyle="bold" /><!--set background color black-->
         
 
@@ -98,13 +98,13 @@ android:layout_weight="1"
             android:layout_width="320dp"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
             android:background="@drawable/roundcorners"
             android:hint="Post a comment"
-            android:textAlignment="center"
-            android:textSize="20sp"
-            android:layout_marginLeft="17dp"
             android:padding="15dp"
+            android:textAlignment="center"
             android:textColorHint="#fff"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <ImageButton
