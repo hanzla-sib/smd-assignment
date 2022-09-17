@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screen8"
+    android:background="@color/brown"
+    android:orientation="vertical"
+    android:weightSum="6"
+    >
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="260dp"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/abc"
+            android:layout_centerHorizontal="true"
+            android:background="@color/brown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/abc"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+            android:text="UserName"
+            android:textAlignment="center"
+            android:textColor="@color/yellow"
+            android:textSize="35sp"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/firstname"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+
+            android:backgroundTint="@color/brown"
+            android:text="Edit Profile"
+            android:textColor="@color/yellow"
+
+            android:textSize="20dp"
+
+            />
+
+        <Button
+            android:backgroundTint="@color/brown"
+            android:layout_marginTop="30dp"
+            android:layout_width="300dp"
+            android:layout_below="@id/firstname"
+
+            android:layout_height="wrap_content"
+            android:text="Change Password"
+            android:textColor="@color/yellow"
+            android:textSize="20dp"
+            android:layout_marginLeft="30dp"
+
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+
+        >
+
+        <Button
+            android:id="@+id/lastbutton"
+            android:backgroundTint="@color/brown"
+            android:layout_marginTop="30dp"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Log Out"
+            android:textColor="@color/yellow"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logout8"
+            android:background="@color/brown"
+            android:layout_toRightOf="@id/lastbutton"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>

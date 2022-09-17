@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screen18"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:weightSum="7"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/back18"
+            android:background="@color/black"
+            android:layout_centerVertical="true"
+
+            android:scaleType="centerInside"
+
+            />
+
+        <EditText
+            android:paddingLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="12dp"
+            android:hint="Search"
+            android:textColorHint="@color/darkyellow"
+            android:textColor="@color/darkyellow"
+            android:background="@drawable/roundcornerswhite"
+
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recent Searches"
+            android:textColor="@color/darkyellow"
+
+            android:textSize="25dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_weight="1.5"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+
+       <ImageButton
+           android:id="@+id/firstimg"
+           android:layout_width="110dp"
+           android:layout_height="110dp"
+           android:src="@drawable/despacito8"
+           android:background="@color/black"
+           android:layout_centerVertical="true"
+           android:scaleType="centerInside"
+           />
+        <TextView
+            android:id="@+id/alphatext"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Song Name"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_toRightOf="@id/firstimg"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artist"
+            android:textSize="24sp"
+            android:textColor="@color/darkyellow"
+            android:layout_toRightOf="@id/firstimg"
+            android:layout_below="@id/alphatext"
+            android:layout_marginTop="5dp"
+            />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/cross18"
+            android:background="@color/black"
+            android:layout_toRightOf="@id/alphatext"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:layout_marginLeft="70dp"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+
+        android:layout_weight="1.5"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+
+        <ImageButton
+            android:id="@+id/firstimg2"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/despacito8"
+            android:background="@color/black"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            />
+
+        <TextView
+            android:id="@+id/alphatext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/firstimg2"
+            android:paddingLeft="20dp"
+            android:text="Playlist Name"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+        <TextView
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artist"
+            android:textSize="24sp"
+            android:textColor="@color/darkyellow"
+            android:layout_toRightOf="@id/firstimg2"
+            android:layout_below="@id/alphatext2"
+            android:layout_marginTop="10dp"
+            />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/cross18"
+            android:background="@color/black"
+            android:layout_toRightOf="@id/alphatext2"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:layout_marginLeft="50dp"
+            />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight="1.5"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+
+        <ImageButton
+            android:id="@+id/firstimg3"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/despacito8"
+            android:background="@color/black"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            />
+
+        <TextView
+            android:id="@+id/alphatext3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/firstimg3"
+            android:paddingLeft="20dp"
+            android:text="Playlist Name"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+        <TextView
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artist"
+            android:textSize="24sp"
+            android:textColor="@color/darkyellow"
+            android:layout_toRightOf="@id/firstimg3"
+            android:layout_below="@id/alphatext3"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/cross18"
+            android:background="@color/black"
+            android:layout_toRightOf="@id/alphatext3"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:layout_marginLeft="50dp"
+            />
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight="0.5"
+android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/gray">
+
+        <RelativeLayout
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+
+            <ImageButton
+                android:id="@+id/fid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/gray"
+                android:src="@drawable/heart5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fid"
+                android:layout_centerHorizontal="true"
+                android:text="liked"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/one"
+            android:background="@color/gray">
+
+            <ImageButton
+                android:id="@+id/tid"
+
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:background="@color/gray"
+                android:src="@drawable/plus5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/tid"
+                android:layout_centerHorizontal="true"
+                android:text="Add"
+                android:textColor="@color/white"
+
+                android:textSize="15dp"
+
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_toRightOf="@id/two"
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+            <ImageButton
+                android:id="@+id/thid"
+                android:layout_width="wrap_content"
+                android:layout_height="72dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:background="@color/gray"
+                android:src="@drawable/search5" />
+
+
+
+            <TextView
+                android:layout_below="@id/thid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:textSize="15dp"
+                android:layout_centerHorizontal="true"
+
+                android:textColor="@color/white"
+
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_toRightOf="@id/three"
+            android:id="@+id/four"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+            <ImageButton
+                android:id="@+id/foid"
+                android:layout_width="wrap_content"
+                android:layout_height="72dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:background="@color/gray"
+                android:src="@drawable/clock5" />
+
+            <TextView
+                android:layout_below="@id/foid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Listed later"
+                android:textSize="15dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+
+                />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

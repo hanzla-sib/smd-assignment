@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screen2"
+    android:background="@color/black"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:text="Signin"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_marginLeft="260dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pic"
+        android:orientation="vertical"
+        >
+        <ImageButton
+            android:background="@color/black"
+            android:scaleType="centerInside"
+            android:layout_width="280dp"
+            android:layout_height="305dp"
+            android:layout_below="@id/sign"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="-1dp"
+            android:layout_marginBottom="20dp"
+            android:padding="60dp"
+            android:src="@drawable/musifylogo1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/pic"
+            android:layout_marginTop="-90dp"
+            android:text="Musify"
+            android:layout_marginLeft="80dp"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:id="@+id/linLayout1"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            >
+
+            <ImageButton
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/facebook4"
+                />
+
+            <Button
+                android:textColor="@color/blue"
+                android:id="@+id/camera_ibtn1screen4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/white"
+                android:text="Continue With Facebook"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/linLayout2screen4"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            >
+
+            <ImageButton
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/google4"
+                />
+
+            <Button
+                android:textColor="#FF0000"
+                android:backgroundTint="@color/white"
+                android:id="@+id/camera_ibtn2screen4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Continue With Google"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:id="@+id/linLayout3screen4"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="82dp"
+            >
+
+
+
+            <Button
+                android:backgroundTint="@color/white"
+                android:padding="15dp"
+                android:textColor="@color/darkyellow"
+                android:id="@+id/camera_ibtn3screen4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Continue With Facebook"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
