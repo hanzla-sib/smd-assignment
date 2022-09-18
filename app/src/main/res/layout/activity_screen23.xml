@@ -7,12 +7,12 @@
     tools:context=".screen23"
     android:orientation="vertical"
     android:background="@color/black"
-    android:weightSum="6"
+    android:weightSum="4"
 
     >
 
     <RelativeLayout
-android:layout_weight="1"
+android:layout_weight="0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageButton
@@ -51,12 +51,17 @@ android:layout_weight="1"
             />
         
     </RelativeLayout>
-    
+
+    <LinearLayout
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <RelativeLayout
-        android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     <ImageView
+        android:layout_marginTop="30dp"
         android:id="@+id/abc"
         android:layout_width="200dp"
         android:layout_height="200dp"
@@ -75,7 +80,7 @@ android:layout_weight="1"
             />
     </RelativeLayout>
     <RelativeLayout
-        android:layout_weight="1"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -93,7 +98,7 @@ android:layout_weight="1"
 
     </RelativeLayout>
     <RelativeLayout
-        android:layout_weight="1"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -111,7 +116,7 @@ android:layout_weight="1"
 
     </RelativeLayout>
     <RelativeLayout
-        android:layout_weight="1"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TextView
@@ -127,125 +132,100 @@ android:layout_weight="1"
 
 
     </RelativeLayout>
-    <RelativeLayout
-       android:layout_marginTop="20dp"
-        android:layout_weight="1"
+    </LinearLayout>
+    <LinearLayout
 
+        android:weightSum="4"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:background="@color/gray">
+        android:layout_height="40dp"
+        android:background="@color/gray"
+        >
+        <ImageButton
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/heart5"
 
-        <RelativeLayout
-            android:id="@+id/one"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent">
+            android:background="@color/gray"
 
-            <ImageButton
-                android:id="@+id/fid"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_alignParentTop="true"
-                android:background="@color/gray"
-                android:src="@drawable/heart5" />
+            />
+        <ImageButton
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/plus5"
+            android:background="@color/gray"
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/fid"
-                android:layout_centerHorizontal="true"
-                android:text="liked"
-                android:textColor="@color/white"
-                android:textSize="15dp" />
+            />
 
-        </RelativeLayout>
+        <ImageButton
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/search5"
+            android:background="@color/gray"
+            />
 
-
-        <RelativeLayout
-            android:id="@+id/two"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:layout_toRightOf="@id/one"
-            android:background="@color/gray">
-
-            <ImageButton
-                android:id="@+id/tid"
-
-                android:layout_width="wrap_content"
-                android:layout_height="70dp"
-                android:layout_alignParentTop="true"
-                android:layout_centerVertical="true"
-                android:background="@color/gray"
-                android:src="@drawable/plus5" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_below="@id/tid"
-                android:layout_centerHorizontal="true"
-                android:text="Add"
-                android:textColor="@color/white"
-
-                android:textSize="15dp"
-
-                />
-
-        </RelativeLayout>
-        <RelativeLayout
-            android:layout_toRightOf="@id/two"
-            android:id="@+id/three"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent">
-            <ImageButton
-                android:id="@+id/thid"
-                android:layout_width="wrap_content"
-                android:layout_height="72dp"
-                android:layout_alignParentTop="true"
-                android:layout_centerVertical="true"
-                android:background="@color/gray"
-                android:src="@drawable/search5" />
+        <ImageButton
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/clock5"
+            android:background="@color/gray"
 
 
+            />
+    </LinearLayout>
+    <LinearLayout
 
-            <TextView
-                android:layout_below="@id/thid"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Search"
-                android:textSize="15dp"
-                android:layout_centerHorizontal="true"
+        android:weightSum="4"
 
-                android:textColor="@color/white"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Liked"
+            android:textColor="@color/white"
+            android:textSize="18sp"
 
-                />
+            />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="       ADD"
+            android:textColor="@color/white"
+            android:textSize="18sp"
 
-        </RelativeLayout>
-        <RelativeLayout
-            android:layout_toRightOf="@id/three"
-            android:id="@+id/four"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent">
-            <ImageButton
-                android:id="@+id/foid"
-                android:layout_width="wrap_content"
-                android:layout_height="72dp"
-                android:layout_alignParentTop="true"
-                android:layout_centerVertical="true"
-                android:background="@color/gray"
-                android:src="@drawable/clock5" />
+            />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     Search"
+            android:textColor="@color/white"
+            android:textSize="18sp"
 
-            <TextView
-                android:layout_below="@id/foid"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Listed later"
-                android:textSize="15dp"
-                android:layout_centerHorizontal="true"
-                android:textColor="@color/white"
+            />
+        <TextView
 
-                />
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Listen Later"
+            android:textColor="@color/white"
+            android:textSize="18sp"
 
-        </RelativeLayout>
-    </RelativeLayout>
+            />
+    </LinearLayout>
 </LinearLayout>

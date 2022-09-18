@@ -10,7 +10,7 @@
     android:weightSum="6"
     >
     <RelativeLayout
-        android:layout_weight="1"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageButton
@@ -57,7 +57,7 @@
 
     </RelativeLayout>
     <RelativeLayout
-        android:layout_weight="3"
+        android:layout_weight="4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -117,53 +117,95 @@ android:layout_weight="1"
             android:src="@drawable/sendmsg7" />
     </RelativeLayout>
 
-    <RelativeLayout
-        android:layout_weight="0.2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/gray">
-        <ImageButton
+    <LinearLayout
 
-            android:id="@+id/one"
-            android:layout_centerVertical="true"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        android:weightSum="4"
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/gray"
+        >
+        <ImageButton
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:src="@drawable/heart5"
             android:background="@color/gray"
+
             />
         <ImageButton
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="20dp"
-            android:layout_toRightOf="@id/one"
-            android:id="@+id/two"
             android:scaleType="centerInside"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:src="@drawable/plus5"
             android:background="@color/gray"
-            />
-        <ImageButton
 
-            android:layout_centerVertical="true"
+            />
+
+        <ImageButton
             android:scaleType="centerInside"
-            android:layout_toRightOf="@id/two"
-            android:id="@+id/three"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:src="@drawable/search5"
             android:background="@color/gray"
             />
-        <ImageButton
 
-            android:layout_centerVertical="true"
-            android:layout_toRightOf="@id/three"
+        <ImageButton
             android:scaleType="centerInside"
-            android:id="@+id/four"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:src="@drawable/clock5"
             android:background="@color/gray"
+
             />
-    </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+
+        android:weightSum="4"
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Liked"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="       ADD"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     Search"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+        <TextView
+
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Listen Later"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
 
 </LinearLayout>

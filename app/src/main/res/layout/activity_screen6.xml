@@ -17,19 +17,29 @@
             android:id="@+id/firstbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/threelines5"
-                android:background="@color/black"
-                />
 
             <ImageButton
+                android:scaleType="fitXY"
+                android:maxHeight="50dp"
+                android:maxWidth="50dp"
+                android:adjustViewBounds="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:src="@drawable/threelines5" />
+
+            <ImageButton
+                android:scaleType="centerInside"
+                android:maxHeight="70dp"
+                android:maxWidth="70dp"
+                android:adjustViewBounds="true"
+                android:layout_centerVertical="true"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
-                android:padding="5dp"
                 android:layout_alignParentRight="true"
                 android:background="@color/black"
+                android:padding="5dp"
                 android:src="@drawable/profile5" />
         </RelativeLayout>
         <RelativeLayout
@@ -203,7 +213,7 @@
             android:layout_weight="1"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
             android:orientation="horizontal"
 
             android:background="@drawable/border"
@@ -218,29 +228,42 @@
                 />
 
             <ImageButton
+                android:scaleType="fitCenter"
+                android:maxHeight="100dp"
+                android:maxWidth="100dp"
+                android:adjustViewBounds="true"
                 android:layout_marginLeft="50dp"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="50dp"
+                android:layout_height="100dp"
                 android:src="@drawable/fastb5"
                 android:background="@color/black"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp"
+
                 />
             <ImageButton
-                android:layout_marginTop="20dp"
+                android:maxHeight="100dp"
+                android:maxWidth="100dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="15dp"
                 android:layout_marginBottom="20dp"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="50dp"
+                android:layout_height="100dp"
                 android:src="@drawable/playone5"
                 android:background="@color/black"
                 android:layout_gravity="center"
                 />
             <ImageButton
+                android:maxHeight="100dp"
+                android:maxWidth="100dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
                 android:clickable="true"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+
+                android:layout_marginTop="3dp"
+
+                android:layout_width="50dp"
+                android:layout_height="100dp"
                 android:src="@drawable/fastorward5"
                 android:background="@color/black"
 
@@ -254,10 +277,11 @@
             android:layout_weight="1"
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:background="@color/gray"
             >
             <ImageButton
+                android:scaleType="centerInside"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -266,6 +290,7 @@
 
                 />
             <ImageButton
+                android:scaleType="centerInside"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -275,6 +300,7 @@
                 />
 
             <ImageButton
+                android:scaleType="centerInside"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -283,6 +309,7 @@
                 />
 
             <ImageButton
+                android:scaleType="centerInside"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

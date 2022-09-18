@@ -63,6 +63,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginLeft="20dp"
+            android:background="@color/white"
             >
 
             <ImageButton
@@ -90,6 +91,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginLeft="20dp"
+            android:background="@color/white"
             >
 
             <ImageButton
@@ -111,16 +113,14 @@
 
         </LinearLayout>
         <LinearLayout
-
             android:layout_marginTop="10dp"
-            android:id="@+id/linLayout3screen4"
-            android:layout_width="290dp"
+
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginLeft="82dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/white"
             >
-
-
 
             <Button
                 android:backgroundTint="@color/white"

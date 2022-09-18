@@ -164,53 +164,95 @@
 
     </RelativeLayout>
 
-    <RelativeLayout
-        android:layout_weight="1"
+    <LinearLayout
+android:layout_marginTop="70dp"
+        android:weightSum="4"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:background="@color/gray">
-
+        android:layout_height="40dp"
+        android:background="@color/gray"
+        >
         <ImageButton
-
-            android:id="@+id/one"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/heart5"
             android:background="@color/gray"
-            android:src="@drawable/heart5" />
 
+            />
         <ImageButton
-            android:id="@+id/two"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="20dp"
-            android:layout_toRightOf="@id/one"
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/plus5"
             android:background="@color/black"
-            android:scaleType="centerInside"
-            android:src="@drawable/plus5" />
-        <ImageButton
 
-            android:layout_centerVertical="true"
+            />
+
+        <ImageButton
             android:scaleType="centerInside"
-            android:layout_toRightOf="@id/two"
-            android:id="@+id/three"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:src="@drawable/search5"
             android:background="@color/gray"
             />
-        <ImageButton
 
-            android:layout_centerVertical="true"
-            android:layout_toRightOf="@id/three"
+        <ImageButton
             android:scaleType="centerInside"
-            android:id="@+id/four"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:src="@drawable/clock5"
             android:background="@color/gray"
+
             />
-    </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+
+        android:weightSum="4"
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Liked"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="       ADD"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:background="@color/black"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     Search"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+        <TextView
+
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Listen Later"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
 
 </LinearLayout>

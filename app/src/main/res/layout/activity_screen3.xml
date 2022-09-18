@@ -29,6 +29,7 @@
         android:orientation="vertical"
         >
         <ImageButton
+
             android:background="@color/black"
             android:scaleType="centerInside"
             android:layout_width="280dp"

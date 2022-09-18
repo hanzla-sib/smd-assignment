@@ -9,6 +9,8 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/drawable/border.xml" value="0.228" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/drawable/browncircle.xml" value="0.1715" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/drawable/button.xml" value="0.228" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/drawable/lastscreenbutton.xml" value="0.1715" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/drawable/lastscreenbuttonbrown.xml" value="0.1715" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/drawable/roundcorners.xml" value="0.228" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/drawable/roundcornerswhite.xml" value="0.1715" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/drawable/yellowbutton.xml" value="0.228" />
@@ -21,19 +23,19 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen14.xml" value="0.24427083333333333" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen15.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen16.xml" value="0.25833333333333336" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen17.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen17.xml" value="0.2" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen18.xml" value="0.25833333333333336" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen19.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen19.xml" value="0.264" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen2.xml" value="0.264" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen20.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen20.xml" value="0.176" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen21.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen22.xml" value="0.264" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen23.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen24.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen3.xml" value="0.264" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen4.xml" value="0.21784420289855072" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen5.xml" value="0.24427083333333333" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen6.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen4.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen5.xml" value="0.152" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen6.xml" value="0.2" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen7.xml" value="0.21784420289855072" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen8.xml" value="0.21784420289855072" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/i190515/app/src/main/res/layout/activity_screen9.xml" value="0.21784420289855072" />
